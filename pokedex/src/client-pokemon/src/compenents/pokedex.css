@@ -1,0 +1,27 @@
+
+.search-bar{
+display:block;
+margin-left:auto;
+margin-right:auto;
+padding:10px 60px;
+padding-left:10px;
+outline:none;
+font-size:15px;
+border-radius:10px;
+background-color:transparent;
+border:3px solid #000;
+padding:center;
+}
+
+.pokedex{
+
+    background-image:url('./images/background_wallpaper.jpg');
+    height:1200px;
+}
+.pokedex-logo{
+  display:block;
+margin-left:auto;
+margin-right:auto;
+width:400px;
+}
+

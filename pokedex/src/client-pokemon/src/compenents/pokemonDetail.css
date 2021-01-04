@@ -1,0 +1,83 @@
+.pokedex_logo_detail{
+ background-image:url('./images/background_wallpaper.jpg');
+ background-repeat: no-repeat;
+
+}
+
+h1 {
+text-align:center;
+text-transform:uppercase;
+font-family:'Nunito', sans-serif;
+color:#000;
+margin-top: 0;
+}
+
+.pokemon-detail-image {
+    height: 215px;
+    width:215px;
+    background-position: left;
+    background-repeat: no-repeat;
+    border:2px solid #000;
+    border-radius:10px;
+    padding:5px;
+    background-color: grey;
+    margin-right:30%;
+    margin-left:20%;
+    margin-top:100px;
+
+}
+
+.arrow {
+	position: absolute;
+    margin-left:100px;
+	width: 3vmin;
+	height: 3vmin;
+	background: transparent;
+	border-top: 1vmin solid white;
+	border-right: 1vmin solid white;
+	box-shadow: 0 0 0 lightgray;
+	transition: all 200ms ease;
+    border-color:#FA6600;
+}	
+	.arrow_left {
+		left: 0;
+		transform: translate3d(0,-50%,0) rotate(-135deg);
+	}
+    .arrow_left:hover{
+
+		border-color:#FA6600;
+		box-shadow: 0.5vmin -0.5vmin 0 white;
+    }
+
+    .arrow_left:before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-40%,-60%) rotate(45deg);
+		width: 200%;
+		height: 200%;
+	}
+
+    .bulle{
+        border:1px solid #FA6600;
+        width:200px;
+        background: #FA6600;
+        border-radius:10px;
+        padding:30px;
+        float:right;
+        margin-right:20%;
+    
+
+    }
+
+.pokemon-detail-title{
+    font-size:20px;
+    margin-bottom:10px;
+    font-family:'Nunito', sans-serif;
+}
+.pokemon-detail{
+    margin-bottom:5px;
+}
+
+

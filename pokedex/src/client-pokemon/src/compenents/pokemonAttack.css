@@ -1,0 +1,59 @@
+.pokemon-card-image {
+    height: 215px;
+    width:215px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.pokemon-card {
+    margin-left:7%;
+    background-color:gray;
+    border:1px solid #000;
+    display:inline-block;
+    border-radius: 5%;
+    margin-top: 7%;
+
+}
+
+.pokemon-card-name {
+    margin-bottom:10px;
+    font-weight: bold;
+    color:white;
+    margin-left:10px;
+}
+
+.pokemon-attack-table {
+     border: 2px solid #FA8800;
+    margin-left:5%;
+    margin-right:30px;
+    background:#FA8800;
+    border-radius:10px;
+    display:inline-block;
+    margin-top:250px;
+    padding:10px;
+
+
+}
+
+.pokemon-atttack{
+    padding:10px;
+}
+
+.id-card {
+
+margin-left:10px;
+color: white;
+}
+
+
+
+
+.border-page{
+
+    margin-left: 20%;
+    margin-right:20%;
+}
+.pokemon-attack-nom{
+    display: block;
+    margin:10px;
+}

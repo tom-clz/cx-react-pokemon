@@ -1,0 +1,50 @@
+.pokemon-card-image {
+    height: 215px;
+    width:215px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.pokemon-card {
+
+    margin-left:7%;
+    background-color:gray;
+    border:1px solid #000;
+    display:inline-block;
+    border-radius: 5%;
+    margin-top: 7%;
+
+}
+
+.pokemon-card-name {
+
+    margin-bottom:10px;
+    font-weight: bold;
+    color:white;
+    margin-left:10px;
+  
+}
+
+.id-card {
+
+    margin-left:10px;
+    color: white;
+
+}
+
+.pokedex{
+
+    background-image:url('./images/background_wallpaper.jpg');
+    height:1200px;
+
+}
+
+
+
+.border-page{
+
+    margin-left: 20%;
+    margin-right:20%;
+
+}
+
